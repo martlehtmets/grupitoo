@@ -9,8 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-		<StackPanel>
-			<Button>Button1</Button>
-		</StackPanel>
+        <NavigationView >
+            <NavigationView.MenuItems>
+
+                <NavigationViewItem Icon="Accept" Content="Pealeht"></NavigationViewItem>
+
+                <NavigationViewItem Icon="Account" Content="page2"></NavigationViewItem>
+
+                <NavigationViewItem Icon="Add" Content="page3"></NavigationViewItem>
+
+            </NavigationView.MenuItems>
+        </NavigationView>
+
     </Grid>
 </Page>
