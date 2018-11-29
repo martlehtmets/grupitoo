@@ -43,7 +43,7 @@
                         </Grid.RowDefinitions>
                         
                         <ListView Grid.Column="0"
-                              Grid.Row="1">
+                              Grid.Row="0">
                             <ListViewItem>Gerli Härm</ListViewItem>
                             <ListViewItem Background="DimGray">Priit Paap</ListViewItem>
                             <ListViewItem>Ülvi Paas</ListViewItem>
@@ -58,7 +58,7 @@
                         </ListView>
                         
                         <ListView Grid.Column="1"
-                              Grid.Row="1">
+                              Grid.Row="0">
                             <ListViewItem>Kutseõpetaja</ListViewItem>
                             <ListViewItem Background="DimGray">Kutseõpetaja</ListViewItem>
                             <ListViewItem>Kutseõpetaja</ListViewItem>
@@ -73,7 +73,7 @@
                         </ListView>
                         
                         <ListView Grid.Column="2"
-                              Grid.Row="1">
+                              Grid.Row="0">
                             <ListViewItem>4351031</ListViewItem>
                             <ListViewItem Background="DimGray">53437933</ListViewItem>
                             <ListViewItem>4351033</ListViewItem>
@@ -88,7 +88,7 @@
                         </ListView>
                         
                         <ListView Grid.Column="3"
-                              Grid.Row="1">
+                              Grid.Row="0">
                             <ListViewItem>gerli.harm@vikk.ee</ListViewItem>
                             <ListViewItem Background="DimGray">priit.paap@vikk.ee</ListViewItem>
                             <ListViewItem>ylvi.paas@vikk.ee</ListViewItem>
