@@ -9,6 +9,230 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Bussiajad</TextBlock>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="11*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <TextBlock FontSize="50">Bussiajad</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <TextBlock FontSize="50" HorizontalAlignment="Center" Margin="0,60,0,0">Kellaaeg</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock FontSize="50" HorizontalAlignment="Center" Margin="0,60,0,0">Liin</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="1">
+            <TextBlock FontSize="50" HorizontalAlignment="Center" Margin="0,60,0,0">Sihtkoht</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <ListView>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">7:15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">7:15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">8:00</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">8:00</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">8:15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">8:20</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">8:20</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">8:50</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">8:50</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">9:00</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">9:10</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">9:35</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">9:40</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">9:40</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">9:40</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">9:40</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">9:45</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">10:20</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">11:20</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">11:20</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">11:55</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">11:55</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">12:32</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">12:38</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">12:38</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">13:20</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">13:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">13:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">13:30</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">13:30</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">13:50</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">14:00</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">14:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">14:35</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">14:40</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">14:45</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">14:45</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">14:50</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:00</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:00</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:38</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:45</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:45</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:50</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:55</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15:55</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">16:40</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">17:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">17:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">17:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">18:37</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">18:50</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">18:50</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">18:50</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">19:40</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">20:25</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">20:55</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">21:40</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">21:55</ListViewItem>
+            </ListView>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <ListView>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">31</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">31</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">31</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">31</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">31</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">31</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15A</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">23</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">15s</ListViewItem>
+            </ListView>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="2">
+            <ListView>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Kolga-Jaani</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Kolga-Jaani</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Kolga-Jaani</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Kolga-Jaani</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+                <ListViewItem FontSize="50" HorizontalAlignment="Center">Viljandi</ListViewItem>
+            </ListView>
+        </StackPanel>
     </Grid>
 </Page>
