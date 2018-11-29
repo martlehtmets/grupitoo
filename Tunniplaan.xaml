@@ -7,22 +7,53 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
     <Grid>
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="GridViewItem">
+                    <Setter Property="FontSize" Value="24"></Setter>
+                    <Setter Property="Background" Value="DimGray"></Setter>
+                    <Setter Property="Margin" Value="10"></Setter>
+                    <Setter Property="Width" Value="100"></Setter>
+                    <Setter Property="Height" Value="100"></Setter>
+                </Style>
+            </StackPanel.Resources>
+
         <Pivot Title="Tunniplaan">
             <PivotItem Header="Grupid">
-                <TextBlock Text="IS16" />
+                <GridView Name="grid1" ItemClick="grid1_ItemClick" IsItemClickEnabled="True">
+                    <GridViewItem>IS16</GridViewItem>
+                    <GridViewItem>IS17</GridViewItem>
+                    <GridViewItem>IS18</GridViewItem>
+                    <GridViewItem>TA18</GridViewItem>
+                </GridView>
             </PivotItem>
             <PivotItem Header="Ruumid">
-                <TextBlock Text="PM140" />
+                <GridView>
+                    <GridViewItem>PM140</GridViewItem>
+                    <GridViewItem>TM105</GridViewItem>
+                    <GridViewItem>TM159</GridViewItem>
+                    <GridViewItem>M310</GridViewItem>
+                </GridView>
             </PivotItem>
             <PivotItem Header="Vabad klassid">
-                <TextBlock Text="TM105" />
+                <GridView>
+                    <GridViewItem>PM218</GridViewItem>
+                    <GridViewItem>PM217</GridViewItem>
+                    <GridViewItem>TM104</GridViewItem>
+                    <GridViewItem>TM103</GridViewItem>
+                </GridView>
             </PivotItem>
             <PivotItem Header="Õpetajad">
-                <TextBlock Text="Priit paap" />
+                <GridView>
+                    <GridViewItem>Priit Paap</GridViewItem>
+                    <GridViewItem>Ott Kukk</GridViewItem>
+                    <GridViewItem>Piret Kukk</GridViewItem>
+                    <GridViewItem>Ülvi Paas</GridViewItem>
+                </GridView>
             </PivotItem>
         </Pivot>
+        </StackPanel>
 
 
     </Grid>

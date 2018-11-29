@@ -20,16 +20,23 @@ namespace grupitoo
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Tunniplaan : Page
+    public sealed partial class Pealeht : Page
     {
-        public Tunniplaan()
+        public Pealeht()
         {
             this.InitializeComponent();
         }
 
-        private void grid1_ItemClick(object sender, ItemClickEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(is16tunnid));
+            this.Frame.Navigate(typeof(Tunniplaan));
         }
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(bussiajad));
+        }
+
+
     }
 }

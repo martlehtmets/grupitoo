@@ -9,17 +9,36 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <NavigationView >
-            <NavigationView.MenuItems>
 
-                <NavigationViewItem Icon="Accept" Content="Pealeht"></NavigationViewItem>
 
-                <NavigationViewItem Icon="Account" Content="page2"></NavigationViewItem>
+      
+        <NavigationView x:Name="navigationview1" Loaded="navigationview1_Loaded" ItemInvoked="navigationview1_ItemInvoked" IsTabStop="False" >
+            <NavigationView.MenuItems >
 
-                <NavigationViewItem Icon="Add" Content="page3"></NavigationViewItem>
+                <NavigationViewItem Icon="Globe" Content="Pealeht" Tag="Pealeht"></NavigationViewItem>
+                
+                <NavigationViewItem Icon="Calendar" Content="Tunniplaan" Tag="Tunniplaan"></NavigationViewItem>
+
+                <NavigationViewItem Icon="CalendarDay" Content="Bussiajad" Tag="bussiajad"></NavigationViewItem>
+
+                <NavigationViewItem Icon="Scan" Content="Järelvastamine" Tag="Järelvastamine"></NavigationViewItem>
+
+                <NavigationViewItem Icon="Contact" Content="Kontakt" Tag="Kontakt"></NavigationViewItem>
 
             </NavigationView.MenuItems>
-        </NavigationView>
+                        <NavigationView.Content>
+                            <StackPanel>
+
+                                <Frame x:Name="Frame1"></Frame>
+                            </StackPanel>
+                        </NavigationView.Content>
+                    </NavigationView>
+
+
+
+
+
+
 
     </Grid>
 </Page>

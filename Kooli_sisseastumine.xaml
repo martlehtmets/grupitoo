@@ -9,10 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+<<<<<<< HEAD
         <Pivot Title="Kooli sisseastumine">
             <PivotItem Header="Erialad"></PivotItem>
             <PivotItem Header="Vastuvõtt"></PivotItem>
             <PivotItem Header=""></PivotItem>
         </Pivot>
+=======
+        <TextBlock FontSize="100">Teer</TextBlock>
+>>>>>>> ad8c932bc78f5b1cb14e8e15402b688f1dd6b906
     </Grid>
 </Page>

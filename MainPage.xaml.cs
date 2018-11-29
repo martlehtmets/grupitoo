@@ -25,6 +25,49 @@ namespace grupitoo
         public MainPage()
         {
             this.InitializeComponent();
+            load_items();
+        }
+
+        private void load_items()
+        {
+            Frame1.Navigate(typeof(Pealeht));
+        }
+
+        private void navigationview1_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void navigationview1_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
+        {
+            string alamleht =  args.InvokedItem.ToString();
+            if (alamleht != null)
+            {
+                switch (alamleht)
+                {
+
+                    case "Pealeht":
+                        Frame1.Navigate(typeof(Pealeht));
+                        break;
+
+                    case "Tunniplaan":
+                        Frame1.Navigate(typeof(Tunniplaan));
+                        break;
+
+                    case "Kontakt":
+                        Frame1.Navigate(typeof(kontakt));
+                        break;
+
+
+                    case "Järelvastamine":
+                        Frame1.Navigate(typeof(järelvastamine));
+                        break;
+
+                    case "Bussiajad":
+                        Frame1.Navigate(typeof(bussiajad));
+                        break;
+                }
+            }
         }
     }
 }
