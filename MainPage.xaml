@@ -12,6 +12,5 @@
 		<StackPanel>
 			<Button>Button1</Button>
 		</StackPanel>
-
     </Grid>
 </Page>
