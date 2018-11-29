@@ -12,7 +12,7 @@
 
 
       
-        <NavigationView x:Name="navigationview1" Loaded="navigationview1_Loaded" ItemInvoked="navigationview1_ItemInvoked" IsTabStop="False" >
+        <NavigationView x:Name="navigationview1" Loaded="navigationview1_Loaded" ItemInvoked="navigationview1_ItemInvoked" IsTabStop="False" IsBackEnabled="True" BackRequested="Navigationview1_BackRequested">
             <NavigationView.MenuItems >
 
                 <NavigationViewItem Icon="Globe" Content="Pealeht" Tag="Pealeht"></NavigationViewItem>

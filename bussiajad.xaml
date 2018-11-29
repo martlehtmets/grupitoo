@@ -19,17 +19,17 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackPanel>
-            <TextBlock FontSize="50">Bussiajad</TextBlock>
+        <StackPanel Grid.ColumnSpan="2">
+            <TextBlock FontSize="100">Bussiajad</TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="1">
-            <TextBlock FontSize="50" HorizontalAlignment="Center" Margin="0,60,0,0">Kellaaeg</TextBlock>
+            <TextBlock FontSize="75" HorizontalAlignment="Center">Kellaaeg</TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="1">
-            <TextBlock FontSize="50" HorizontalAlignment="Center" Margin="0,60,0,0">Liin</TextBlock>
+            <TextBlock FontSize="75" HorizontalAlignment="Center">Liin</TextBlock>
         </StackPanel>
         <StackPanel Grid.Column="2" Grid.Row="1">
-            <TextBlock FontSize="50" HorizontalAlignment="Center" Margin="0,60,0,0">Sihtkoht</TextBlock>
+            <TextBlock FontSize="75" HorizontalAlignment="Center">Sihtkoht</TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="2">
             <ListView>
