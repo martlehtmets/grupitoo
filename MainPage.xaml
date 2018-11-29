@@ -11,18 +11,33 @@
     <Grid>
 
       <StackPanel>
-        <NavigationView SelectionChanged="NavigationView_SelectionChanged" x:Name="navigationview1" Loaded="navigationview1_Loaded" ItemInvoked="navigationview1_ItemInvoked" IsTabStop="False" >
+        <NavigationView SelectionChanged="NavigationView_SelectionChanged"
+                        x:Name="navigationview1"
+                        Loaded="navigationview1_Loaded"
+                        ItemInvoked="navigationview1_ItemInvoked"
+                        IsTabStop="False"
+                        >
             <NavigationView.MenuItems >
 
-                <NavigationViewItem Icon="Accept" Content="Pealeht" Tag="Pealeht"></NavigationViewItem>
+                <NavigationViewItem Icon="Accept"
+                                    Content="Pealeht"
+                                    Tag="Pealeht"></NavigationViewItem>
                 
-                <NavigationViewItem Icon="Accept" Content="Tunniplaan" Tag="Tunniplaan"></NavigationViewItem>
+                <NavigationViewItem Icon="Accept"
+                                    Content="Tunniplaan"
+                                    Tag="Tunniplaan"></NavigationViewItem>
 
-                <NavigationViewItem Icon="Account" Content="Bussiajad" Tag="bussiajad"></NavigationViewItem>
+                <NavigationViewItem Icon="Account"
+                                    Content="Bussiajad"
+                                    Tag="bussiajad"></NavigationViewItem>
 
-                <NavigationViewItem Icon="Add" Content="Järelvastamine" Tag="Järelvastamine"></NavigationViewItem>
+                <NavigationViewItem Icon="Add"
+                                    Content="Järelvastamine"
+                                    Tag="Järelvastamine"></NavigationViewItem>
 
-                <NavigationViewItem Icon="Add" Content="Kontakt" Tag="Kontakt"></NavigationViewItem>
+                <NavigationViewItem Icon="Add"
+                                    Content="Kontakt"
+                                    Tag="Kontakt"></NavigationViewItem>
 
             </NavigationView.MenuItems>
             <NavigationView.Content>
@@ -36,10 +51,10 @@
 
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-
+    
     
 
 
