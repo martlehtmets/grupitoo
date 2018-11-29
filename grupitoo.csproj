@@ -107,9 +107,6 @@
     <Compile Include="kontakt.xaml.cs">
       <DependentUpon>kontakt.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Kooli_sisseastumine.xaml.cs">
-      <DependentUpon>Kooli_sisseastumine.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -155,10 +152,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="kontakt.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Kooli_sisseastumine.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
