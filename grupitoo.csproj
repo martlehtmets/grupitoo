@@ -98,6 +98,9 @@
     <Compile Include="bussiajad.xaml.cs">
       <DependentUpon>bussiajad.xaml</DependentUpon>
     </Compile>
+    <Compile Include="is16tunnid.xaml.cs">
+      <DependentUpon>is16tunnid.xaml</DependentUpon>
+    </Compile>
     <Compile Include="järelvastamine.xaml.cs">
       <DependentUpon>järelvastamine.xaml</DependentUpon>
     </Compile>
@@ -140,6 +143,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="bussiajad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="is16tunnid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
