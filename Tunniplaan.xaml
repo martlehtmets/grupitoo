@@ -9,6 +9,21 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Pivot Title="Tunniplaan">
+            <PivotItem Header="Grupid">
+                <TextBlock Text="IS16" />
+            </PivotItem>
+            <PivotItem Header="Ruumid">
+                <TextBlock Text="PM140" />
+            </PivotItem>
+            <PivotItem Header="Vabad klassid">
+                <TextBlock Text="TM105" />
+            </PivotItem>
+            <PivotItem Header="Õpetajad">
+                <TextBlock Text="Priit paap" />
+            </PivotItem>
+        </Pivot>
+
 
     </Grid>
 </Page>
