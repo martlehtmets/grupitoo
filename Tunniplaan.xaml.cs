@@ -26,5 +26,10 @@ namespace grupitoo
         {
             this.InitializeComponent();
         }
+
+        private void grid1_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            this.Frame.Navigate(typeof(is16tunnid));
+        }
     }
 }

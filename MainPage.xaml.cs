@@ -25,12 +25,12 @@ namespace grupitoo
         public MainPage()
         {
             this.InitializeComponent();
+            load_items();
         }
 
-        private void NavigationView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
+        private void load_items()
         {
-
-
+            Frame1.Navigate(typeof(Pealeht));
         }
 
         private void navigationview1_Loaded(object sender, RoutedEventArgs e)

@@ -11,49 +11,120 @@
     <Grid>
         <StackPanel>
             <StackPanel.Resources>
-                <Style TargetType="TextBlock">
-                    <Setter Property="FontSize" Value="35"></Setter>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="FontSize" Value="14"></Setter>
                 </Style>
             </StackPanel.Resources>
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="0.5*"></RowDefinition>
-                    <RowDefinition Height="2*"></RowDefinition>
-                    <RowDefinition Height="2*"></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="1" Grid.Row="0" Text="Esmaspäev"></TextBlock>
-                <TextBlock Grid.Column="2" Grid.Row="0" Text="Teisipäev"></TextBlock>
-                <TextBlock Grid.Column="3" Grid.Row="0" Text="Kolmapäev"></TextBlock>
-                <TextBlock Grid.Column="4" Grid.Row="0" Text="Neljapäev"></TextBlock>
-                <TextBlock Grid.Column="5" Grid.Row="0" Text="Reede"></TextBlock>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <ListView Grid.Column="0" Grid.Row="1" SelectionMode="None">
+                    <ListViewItem>1. tund</ListViewItem>
+                    <ListViewItem>8:10 - 8:55</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="0" Grid.Row="2" SelectionMode="None">
+                    <ListViewItem>2. tund</ListViewItem>
+                    <ListViewItem>9:05 - 9:50</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="0" Grid.Row="3" SelectionMode="None">
+                    <ListViewItem>3. tund</ListViewItem>
+                    <ListViewItem>9:51 - 10:35</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="0" Grid.Row="4" SelectionMode="None">
+                    <ListViewItem>4. tund</ListViewItem>
+                    <ListViewItem>10:45 - 11:31</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="0" Grid.Row="5" SelectionMode="None">
+                    <ListViewItem>5. tund</ListViewItem>
+                    <ListViewItem>11:31 - 12:15</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="0" Grid.Row="6" SelectionMode="None">
+                    <ListViewItem>6. tund</ListViewItem>
+                    <ListViewItem>13:15 - 14:00</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="0" Grid.Row="7" SelectionMode="None">
+                    <ListViewItem>7. tund</ListViewItem>
+                    <ListViewItem>14:05 - 14:50</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="0" Grid.Row="8" SelectionMode="None">
+                    <ListViewItem>8. tund</ListViewItem>
+                    <ListViewItem>15:00 - 15:45</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="0" Grid.Row="9" SelectionMode="None">
+                    <ListViewItem>9. tund</ListViewItem>
+                    <ListViewItem>15:55 - 16:40</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="0" SelectionMode="None">
+                    <ListViewItem>Esmaspäev</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="2" Grid.Row="0" SelectionMode="None">
+                    <ListViewItem>Teisipäev</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="3" Grid.Row="0" SelectionMode="None">
+                    <ListViewItem>Kolmapäev</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="4" Grid.Row="0" SelectionMode="None">
+                    <ListViewItem>Neljapäev</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="5" Grid.Row="0" SelectionMode="None">
+                    <ListViewItem>Reede</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="1" SelectionMode="None">
+                    <ListViewItem>Mobiilsed</ListViewItem>
+                    <ListViewItem>rakendused</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="2" SelectionMode="None">
+                    <ListViewItem>Mobiilsed</ListViewItem>
+                    <ListViewItem>rakendused</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="3" SelectionMode="None">
+                    <ListViewItem>Mobiilsed</ListViewItem>
+                    <ListViewItem>rakendused</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="4" SelectionMode="None">
+                    <ListViewItem>Mobiilsed</ListViewItem>
+                    <ListViewItem>rakendused</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="5" SelectionMode="None">
+                    <ListViewItem>Mobiilsed</ListViewItem>
+                    <ListViewItem>rakendused</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="6" SelectionMode="None">
+                    <ListViewItem>Mobiilsed</ListViewItem>
+                    <ListViewItem>rakendused</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="7" SelectionMode="None">
+                    <ListViewItem>Mobiilsed</ListViewItem>
+                    <ListViewItem>rakendused</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="8" SelectionMode="None">
+                    <ListViewItem>Mobiilsed</ListViewItem>
+                    <ListViewItem>rakendused</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1" Grid.Row="9" SelectionMode="None">
+                    <ListViewItem>Mobiilsed</ListViewItem>
+                    <ListViewItem>rakendused</ListViewItem>
+                </ListView>
 
-                <TextBlock Grid.Column="0" Grid.Row="1" Text="1. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="2" Text="2. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="3" Text="3. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="4" Text="4. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="5" Text="5. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="6" Text="6. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="7" Text="7. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="8" Text="8. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="9" Text="9. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="10" Text="10. tund"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="11" Text="11. tund"></TextBlock>
             </Grid>
 
         </StackPanel>
