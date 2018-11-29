@@ -19,7 +19,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackPanel>
+        <StackPanel Grid.ColumnSpan="2">
             <TextBlock FontSize="100">Bussiajad</TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="1">
