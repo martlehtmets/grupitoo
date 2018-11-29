@@ -17,95 +17,219 @@
             <ColumnDefinition Width="1*"></ColumnDefinition>
             <!-- <ColumnDefinition Width="1*"></ColumnDefinition> -->
         </Grid.ColumnDefinitions>
-
-        <StackPanel>
-        
-            <ScrollViewer>
+        <ScrollViewer>
+            <StackPanel>
+            
             <StackPanel Grid.Row="0"
                         Grid.Column="1">
                 
                 <TextBlock TextAlignment="Center">Arvuti- ja Teenindusõppeosakond</TextBlock>
-                
-                <StackPanel Grid.Row="1"
-                        Grid.Column="0">
-                    
-                    <Grid>
-                        
+
+                    <StackPanel Grid.Row="1"
+                                Grid.Column="0">
+
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <ListView Grid.Column="0"
+                                      Grid.Row="0">
+                                <ListViewItem>Gerli Härm</ListViewItem>
+                                <ListViewItem Background="DimGray">Priit Paap</ListViewItem>
+                                <ListViewItem>Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="DimGray">Esta Paistu</ListViewItem>
+                                <ListViewItem>Imbi Põrk</ListViewItem>
+                                <ListViewItem Background="DimGray">Ene Rotar</ListViewItem>
+                                <ListViewItem>Tiina Tamber</ListViewItem>
+                                <ListViewItem Background="DimGray">Ariaane Truu</ListViewItem>
+                                <ListViewItem>Jaanus Alnek</ListViewItem>
+                                <ListViewItem Background="DimGray">Lea Kask</ListViewItem>
+                                <ListViewItem>Piret Kukk</ListViewItem>
+                            </ListView>
+
+                            <ListView Grid.Column="1"
+                                      Grid.Row="0">
+                                <ListViewItem>Kutseõpetaja</ListViewItem>
+                                <ListViewItem Background="DimGray">Kutseõpetaja</ListViewItem>
+                                <ListViewItem>Kutseõpetaja</ListViewItem>
+                                <ListViewItem Background="DimGray">Abikokk</ListViewItem>
+                                <ListViewItem>Kutseõpetaja</ListViewItem>
+                                <ListViewItem Background="DimGray">Kokk</ListViewItem>
+                                <ListViewItem>Arvuti- ja teenindusõppeosakonna juht</ListViewItem>
+                                <ListViewItem Background="DimGray">Kutseõpetaja</ListViewItem>
+                                <ListViewItem>Kutseõpetaja</ListViewItem>
+                                <ListViewItem Background="DimGray">Kutseõpetaja</ListViewItem>
+                                <ListViewItem>Grupijuhendaja</ListViewItem>
+                            </ListView>
+
+                            <ListView Grid.Column="2"
+                                      Grid.Row="0">
+                                <ListViewItem>4351031</ListViewItem>
+                                <ListViewItem Background="DimGray">53437933</ListViewItem>
+                                <ListViewItem>4351033</ListViewItem>
+                                <ListViewItem Background="DimGray">4351028</ListViewItem>
+                                <ListViewItem>4351048</ListViewItem>
+                                <ListViewItem Background="DimGray">4351028</ListViewItem>
+                                <ListViewItem>4351048</ListViewItem>
+                                <ListViewItem Background="DimGray">4351048</ListViewItem>
+                                <ListViewItem>5225797</ListViewItem>
+                                <ListViewItem Background="DimGray">4351048</ListViewItem>
+                                <ListViewItem>58818304</ListViewItem>
+                            </ListView>
+
+                            <ListView Grid.Column="3"
+                                      Grid.Row="0">
+                                <ListViewItem>gerli.harm@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem>ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">esta.paistu@vikk.ee</ListViewItem>
+                                <ListViewItem>imbi.pork@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">ene.rotar@vikk.ee</ListViewItem>
+                                <ListViewItem>tiina.tambet@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">ariaane.truu@vikk.ee</ListViewItem>
+                                <ListViewItem>jaanus.alnek@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">lea.kask@vikk.ee</ListViewItem>
+                                <ListViewItem>piret.kukk@vikk.ee</ListViewItem>
+                            </ListView>
+
+
+                        </Grid>
+                    </StackPanel>
+                    <TextBlock TextAlignment="Center"
+                               Grid.Row="0">Direktor</TextBlock>
+                    <StackPanel>
+                        <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="1*"></ColumnDefinition>
                             <ColumnDefinition Width="1*"></ColumnDefinition>
                             <ColumnDefinition Width="1*"></ColumnDefinition>
                             <ColumnDefinition Width="1*"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        
+
                         <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
                             <RowDefinition Height="1*"></RowDefinition>
                         </Grid.RowDefinitions>
-                        
+
                         <ListView Grid.Column="0"
-                              Grid.Row="0">
-                            <ListViewItem>Gerli Härm</ListViewItem>
-                            <ListViewItem Background="DimGray">Priit Paap</ListViewItem>
-                            <ListViewItem>Ülvi Paas</ListViewItem>
-                            <ListViewItem Background="DimGray">Esta Paistu</ListViewItem>
-                            <ListViewItem>Imbi Põrk</ListViewItem>
-                            <ListViewItem Background="DimGray">Ene Rotar</ListViewItem>
-                            <ListViewItem>Tiina Tamber</ListViewItem>
-                            <ListViewItem Background="DimGray">Ariaane Truu</ListViewItem>
-                            <ListViewItem>Jaanus Alnek</ListViewItem>
-                            <ListViewItem Background="DimGray">Lea Kask</ListViewItem>
-                            <ListViewItem>Piret Kukk</ListViewItem>
-                        </ListView>
-                        
+                                  Grid.Row="0">
+                            <ListViewItem>Jana Falevicz</ListViewItem>
+                            <ListViewItem Background="DimGray">Ott Kukk</ListViewItem>
+                                <ListViewItem>Tarmo Loodus</ListViewItem>
+                            </ListView>
+                            
                         <ListView Grid.Column="1"
-                              Grid.Row="0">
-                            <ListViewItem>Kutseõpetaja</ListViewItem>
-                            <ListViewItem Background="DimGray">Kutseõpetaja</ListViewItem>
-                            <ListViewItem>Kutseõpetaja</ListViewItem>
-                            <ListViewItem Background="DimGray">Abikokk</ListViewItem>
-                            <ListViewItem>Kutseõpetaja</ListViewItem>
-                            <ListViewItem Background="DimGray">Kokk</ListViewItem>
-                            <ListViewItem>Arvuti- ja teenindusõppeosakonna juht</ListViewItem>
-                            <ListViewItem Background="DimGray">Kutseõpetaja</ListViewItem>
-                            <ListViewItem>Kutseõpetaja</ListViewItem>
-                            <ListViewItem Background="DimGray">Kutseõpetaja</ListViewItem>
-                            <ListViewItem>Grupijuhendaja</ListViewItem>
+                                  Grid.Row="0">
+                            <ListViewItem>Juhiabi</ListViewItem>
+                            <ListViewItem Background="DimGray">IT Juht</ListViewItem>
+                                <ListViewItem>Direktor</ListViewItem>
                         </ListView>
-                        
                         <ListView Grid.Column="2"
-                              Grid.Row="0">
-                            <ListViewItem>4351031</ListViewItem>
-                            <ListViewItem Background="DimGray">53437933</ListViewItem>
-                            <ListViewItem>4351033</ListViewItem>
-                            <ListViewItem Background="DimGray">4351028</ListViewItem>
-                            <ListViewItem>4351048</ListViewItem>
-                            <ListViewItem Background="DimGray">4351028</ListViewItem>
-                            <ListViewItem>4351048</ListViewItem>
-                            <ListViewItem Background="DimGray">4351048</ListViewItem>
-                            <ListViewItem>5225797</ListViewItem>
-                            <ListViewItem Background="DimGray">4351048</ListViewItem>
-                            <ListViewItem>58818304</ListViewItem>
+                                  Grid.Row="0">
+                                <ListViewItem>4351020</ListViewItem>
+                                <ListViewItem Background="DimGray">58607888</ListViewItem>
+                                <ListViewItem>4351020</ListViewItem>
                         </ListView>
-                        
+
                         <ListView Grid.Column="3"
-                              Grid.Row="0">
-                            <ListViewItem>gerli.harm@vikk.ee</ListViewItem>
-                            <ListViewItem Background="DimGray">priit.paap@vikk.ee</ListViewItem>
-                            <ListViewItem>ylvi.paas@vikk.ee</ListViewItem>
-                            <ListViewItem Background="DimGray">esta.paistu@vikk.ee</ListViewItem>
-                            <ListViewItem>imbi.pork@vikk.ee</ListViewItem>
-                            <ListViewItem Background="DimGray">ene.rotar@vikk.ee</ListViewItem>
-                            <ListViewItem>tiina.tambet@vikk.ee</ListViewItem>
-                            <ListViewItem Background="DimGray">ariaane.truu@vikk.ee</ListViewItem>
-                            <ListViewItem>jaanus.alnek@vikk.ee</ListViewItem>
-                            <ListViewItem Background="DimGray">lea.kask@vikk.ee</ListViewItem>
-                            <ListViewItem>piret.kukk@vikk.ee</ListViewItem>
+                                  Grid.Row="0">
+                            <ListViewItem>sekretar@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">ott.kukk@vikk.ee</ListViewItem>
+                                <ListViewItem>tarmo.loodus@vikk.ee</ListViewItem>
                         </ListView>
-                        
-                    </Grid>
+                        </Grid>
+                    </StackPanel>
+                    <TextBlock TextAlignment="Center"
+                               Grid.Row="0">Haldusosakond</TextBlock>
+                    <StackPanel>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="1*"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <ListView Grid.Column="0"
+                                  Grid.Row="0">
+                                <ListViewItem>Malle Aasna</ListViewItem>
+                                <ListViewItem Background="DimGray">Eha Kallas</ListViewItem>
+                                <ListViewItem>Ly Kitsing</ListViewItem>
+                                <ListViewItem Background="DimGray">Ester Kold</ListViewItem>
+                                <ListViewItem>Eha Kooser</ListViewItem>
+                                <ListViewItem Background="DimGray">Erki Levit</ListViewItem>
+                                <ListViewItem>Arvi Lohu</ListViewItem>
+                                <ListViewItem Background="DimGray">Enn Lüding</ListViewItem>
+                                <ListViewItem>Rein Mirka</ListViewItem>
+                                <ListViewItem Background="DimGray">Laine Mitt</ListViewItem>
+                                <ListViewItem>Mari Preem</ListViewItem>
+                                <ListViewItem Background="DimGray">Reet Takk</ListViewItem>
+                                <ListViewItem>Sirje Terasmaa</ListViewItem>
+                                <ListViewItem Background="DimGray">Marju Roosipuu</ListViewItem>
+                            </ListView>
+
+                            <ListView Grid.Column="1"
+                                  Grid.Row="0">
+                                <ListViewItem>Õpilaskodu Administraator</ListViewItem>
+                                <ListViewItem Background="DimGray">Õpilaskodu Juht</ListViewItem>
+                                <ListViewItem>Koristaja</ListViewItem>
+                                <ListViewItem Background="DimGray">Õpilaskodu Administraator</ListViewItem>
+                                <ListViewItem>Koristaja</ListViewItem>
+                                <ListViewItem Background="DimGray">Haldusosakonna Juht</ListViewItem>
+                                <ListViewItem>Majahoidja</ListViewItem>
+                                <ListViewItem Background="DimGray">Remonditööline</ListViewItem>
+                                <ListViewItem>Administraator</ListViewItem>
+                                <ListViewItem Background="DimGray">Finants-kulujuht</ListViewItem>
+                                <ListViewItem>Koristaja</ListViewItem>
+                                <ListViewItem Background="DimGray">Õpilaskodu Administraator</ListViewItem>
+                                <ListViewItem>Administraator</ListViewItem>
+                                <ListViewItem Background="DimGray">Personaliarvestaja</ListViewItem>
+
+                            </ListView>
+                            <ListView Grid.Column="2"
+                                  Grid.Row="0">
+                                <ListViewItem>4351034</ListViewItem>
+                                <ListViewItem Background="DimGray">4351034</ListViewItem>
+                                <ListViewItem>4351038</ListViewItem>
+                                <ListViewItem Background="DimGray">4351034</ListViewItem>
+                                <ListViewItem>4351034</ListViewItem>
+                                <ListViewItem Background="DimGray"></ListViewItem>
+                                <ListViewItem>4351037</ListViewItem>
+                                <ListViewItem Background="DimGray">4351027</ListViewItem>
+                                <ListViewItem>55697781</ListViewItem>
+                                <ListViewItem Background="DimGray">4351048</ListViewItem>
+                                <ListViewItem>4351024</ListViewItem>
+                                <ListViewItem Background="DimGray"></ListViewItem>
+                                <ListViewItem>4351034</ListViewItem>
+                                <ListViewItem Background="DimGray">4351048</ListViewItem>
+                                <ListViewItem>4351026</ListViewItem>
+                            </ListView>
+
+                            <ListView Grid.Column="3"
+                                  Grid.Row="0">
+                                <ListViewItem>sekretar@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">ott.kukk@vikk.ee</ListViewItem>
+                                <ListViewItem>tarmo.loodus@vikk.ee</ListViewItem>
+                            </ListView>
+                        </Grid>
+                    </StackPanel>
                 </StackPanel>
-                </StackPanel>
-            </ScrollViewer>
+            
         </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
