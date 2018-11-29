@@ -221,9 +221,21 @@
 
                             <ListView Grid.Column="3"
                                   Grid.Row="0">
-                                <ListViewItem>sekretar@vikk.ee</ListViewItem>
-                                <ListViewItem Background="DimGray">ott.kukk@vikk.ee</ListViewItem>
-                                <ListViewItem>tarmo.loodus@vikk.ee</ListViewItem>
+                                <ListViewItem></ListViewItem>
+                                <ListViewItem Background="DimGray">opilaskodu@vikk.ee</ListViewItem>
+                                <ListViewItem></ListViewItem>
+                                <ListViewItem Background="DimGray">ester.kold@vikk.ee</ListViewItem>
+                                <ListViewItem>eha.kooser@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">erki.levit@vikk.ee</ListViewItem>
+                                <ListViewItem>haldus@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">enn.lydig@vikk.ee</ListViewItem>
+                                <ListViewItem>rein.mirka@hotmail.com</ListViewItem>
+                                <ListViewItem Background="DimGray">laine.mitt@vikk.ee</ListViewItem>
+                                <ListViewItem>mari.preem@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray"></ListViewItem>
+                                <ListViewItem>reet.takk@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DimGray">sirje.terasmaa@vikk.ee</ListViewItem>
+                                <ListViewItem></ListViewItem>
                             </ListView>
                         </Grid>
                     </StackPanel>
