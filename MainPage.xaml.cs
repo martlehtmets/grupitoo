@@ -69,5 +69,29 @@ namespace grupitoo
                 }
             }
         }
+
+        private void Navigationview1_BackRequested(NavigationView sender, NavigationViewBackRequestedEventArgs args)
+        {
+            On_BackRequested();
+        }
+
+        private bool On_BackRequested()
+        {
+            if (!Frame1.CanGoBack)
+            {
+                return false;
+            
+            }
+            else
+            {
+                Frame1.GoBack();
+                return true;
+            } 
+
+        }
+
+
     }
+
+
 }
