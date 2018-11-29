@@ -9,6 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <TextBlock FontSize="100">Teer</TextBlock>
     </Grid>
 </Page>
