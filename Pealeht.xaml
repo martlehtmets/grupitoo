@@ -9,6 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>123</TextBlock>
+        <GridView>
+            <Button Name="button1" Content="Tunniplaan" Background="DimGray" Foreground="Black" Click="Button_Click"  >
+                
+            </Button>
+            <Button Content="Bussiajad" Background="DimGray" Foreground="Black"></Button>
+            <Button Content="Uudised" Background="DimGray" Foreground="Black" ></Button>
+        </GridView>
     </Grid>
 </Page>

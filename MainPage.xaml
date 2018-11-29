@@ -10,19 +10,19 @@
 
     <Grid>
 
-      <StackPanel>
-        <NavigationView SelectionChanged="NavigationView_SelectionChanged" x:Name="navigationview1" Loaded="navigationview1_Loaded" ItemInvoked="navigationview1_ItemInvoked" IsTabStop="False" >
+      
+        <NavigationView x:Name="navigationview1" Loaded="navigationview1_Loaded" ItemInvoked="navigationview1_ItemInvoked" IsTabStop="False" >
             <NavigationView.MenuItems >
 
-                <NavigationViewItem Icon="Accept" Content="Pealeht" Tag="Pealeht"></NavigationViewItem>
+                <NavigationViewItem Icon="Globe" Content="Pealeht" Tag="Pealeht"></NavigationViewItem>
                 
-                <NavigationViewItem Icon="Accept" Content="Tunniplaan" Tag="Tunniplaan"></NavigationViewItem>
+                <NavigationViewItem Icon="Calendar" Content="Tunniplaan" Tag="Tunniplaan"></NavigationViewItem>
 
-                <NavigationViewItem Icon="Account" Content="Bussiajad" Tag="bussiajad"></NavigationViewItem>
+                <NavigationViewItem Icon="CalendarDay" Content="Bussiajad" Tag="bussiajad"></NavigationViewItem>
 
-                <NavigationViewItem Icon="Add" Content="Järelvastamine" Tag="Järelvastamine"></NavigationViewItem>
+                <NavigationViewItem Icon="Scan" Content="Järelvastamine" Tag="Järelvastamine"></NavigationViewItem>
 
-                <NavigationViewItem Icon="Add" Content="Kontakt" Tag="Kontakt"></NavigationViewItem>
+                <NavigationViewItem Icon="Contact" Content="Kontakt" Tag="Kontakt"></NavigationViewItem>
 
             </NavigationView.MenuItems>
             <NavigationView.Content>
@@ -32,13 +32,9 @@
                 </StackPanel>
             </NavigationView.Content>
         </NavigationView>
-       </StackPanel>
+       
 
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
 
     
 
