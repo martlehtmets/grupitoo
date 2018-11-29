@@ -10,6 +10,7 @@
 
     <Grid>
 
+
       
         <NavigationView x:Name="navigationview1" Loaded="navigationview1_Loaded" ItemInvoked="navigationview1_ItemInvoked" IsTabStop="False" >
             <NavigationView.MenuItems >
@@ -25,18 +26,14 @@
                 <NavigationViewItem Icon="Contact" Content="Kontakt" Tag="Kontakt"></NavigationViewItem>
 
             </NavigationView.MenuItems>
-            <NavigationView.Content>
-                <StackPanel>
-                    
-                <Frame x:Name="Frame1"></Frame>
-                </StackPanel>
-            </NavigationView.Content>
-        </NavigationView>
-       
+                        <NavigationView.Content>
+                            <StackPanel>
 
+                                <Frame x:Name="Frame1"></Frame>
+                            </StackPanel>
+                        </NavigationView.Content>
+                    </NavigationView>
 
-
-    
 
 
 
