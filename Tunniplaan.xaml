@@ -12,7 +12,7 @@
             <StackPanel.Resources>
                 <Style TargetType="GridViewItem">
                     <Setter Property="FontSize" Value="24"></Setter>
-                    <Setter Property="Background" Value="GhostWhite"></Setter>
+                    <Setter Property="Background" Value="DimGray"></Setter>
                     <Setter Property="Margin" Value="10"></Setter>
                     <Setter Property="Width" Value="100"></Setter>
                     <Setter Property="Height" Value="100"></Setter>
@@ -21,7 +21,7 @@
 
         <Pivot Title="Tunniplaan">
             <PivotItem Header="Grupid">
-                <GridView>
+                <GridView Name="grid1" ItemClick="grid1_ItemClick" IsItemClickEnabled="True">
                     <GridViewItem>IS16</GridViewItem>
                     <GridViewItem>IS17</GridViewItem>
                     <GridViewItem>IS18</GridViewItem>
