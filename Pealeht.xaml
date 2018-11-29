@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="grupitoo.kontakt"
+    x:Class="grupitoo.Pealeht"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:grupitoo"
@@ -9,6 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock FontSize="100">Teer</TextBlock>
+        <TextBlock>123</TextBlock>
     </Grid>
 </Page>
