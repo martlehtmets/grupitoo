@@ -9,6 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <Pivot Title="Kooli sisseastumine">
+            <PivotItem Header="Erialad"></PivotItem>
+            <PivotItem Header="Vastuvõtt"></PivotItem>
+            <PivotItem Header=""></PivotItem>
+        </Pivot>
     </Grid>
 </Page>
