@@ -31,5 +31,12 @@ namespace grupitoo
         {
             this.Frame.Navigate(typeof(Tunniplaan));
         }
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(bussiajad));
+        }
+
+
     }
 }
