@@ -76,6 +76,7 @@
                             </ListView>
                         </StackPanel>
                         <StackPanel Grid.Column="1" Grid.Row="1">
+                            <ListView>
                             <ListViewItem >Õpetaja</ListViewItem>
                             <ListViewItem Background="DimGray">Õpetaja</ListViewItem>
                             <ListViewItem >Õpetaja</ListViewItem>
@@ -112,6 +113,7 @@
                             <ListViewItem >Õpetaja</ListViewItem>
                             <ListViewItem Background="DimGray">Õpetaja</ListViewItem>
                             <ListViewItem >Õpetaja</ListViewItem>
+                            </ListView>
                         </StackPanel>
                         <StackPanel Grid.Column="2" Grid.Row="1">
                             <ListView>
@@ -154,6 +156,7 @@
                             </ListView>
                         </StackPanel>
                         <StackPanel Grid.Column="3" Grid.Row="1">
+                            <ListView>
                             <ListViewItem >+372 55555555</ListViewItem>
                             <ListViewItem Background="DimGray">+372 55555555</ListViewItem>
                             <ListViewItem >+372 55555555</ListViewItem>
@@ -190,6 +193,7 @@
                             <ListViewItem >+372 55555555</ListViewItem>
                             <ListViewItem Background="DimGray">+372 55555555</ListViewItem>
                             <ListViewItem >+372 55555555</ListViewItem>
+                            </ListView>
                         </StackPanel>
                     </Grid>
                 </StackPanel>
